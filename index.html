@@ -24,7 +24,7 @@
 
 
 <!-- CONTACT FORM -->
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="My Contact Form" method="POST" data-netlify="true">
             <p>
               <label>Your Name: <input type="text" name="name" /></label>   
             </p>
@@ -34,6 +34,11 @@
             <p>
               <label>Message: <textarea name="message"></textarea></label>
             </p>
+            <p>
+                <input type="file">
+            </p>
+
+            <div data-netlify-recaptcha="true"></div>
             <p>
               <button type="submit">Send</button>
             </p>
