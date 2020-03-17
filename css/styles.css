@@ -1,3 +1,50 @@
-body {
-    background: green;
+@import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
+
+nav {
+	background: offwhite;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+a {
+/*   background: red; */
+  height: 50px;
+  line-height: 60px;
+}
+nav h1  {
+  flex-grow: 1;
+  font-size: 40px;
+  font-family: 'Alatsi', sans-serif;
+  font-style: italic;
+  color: grey;
+  padding: 0 0px 20px 40px;
+}
+
+/* 
+* Default state styling 
+* Visited State styling */
+a {
+  color: grey;
+  text-decoration: none;
+  padding: .5em;
+  margin: .5em;
+  font-family: 'Alatsi', sans-serif;
+  font-size: 20px;
+  transition: .5s;
+}
+
+a:visited{
+  color: grey;
+  text-decoration: none;
+  padding: .5em;
+  margin: .5em;
+}
+a:hover {
+  color: #ff7b00;
+  font-size: 30px;
+}
+
+a:active{
+  color: orange;
 }
