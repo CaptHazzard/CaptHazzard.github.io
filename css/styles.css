@@ -1,7 +1,9 @@
+
+
 @import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
 
 nav {
-	background: offwhite;
+	background: whitesmoke;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -18,7 +20,7 @@ nav h1  {
   font-family: 'Alatsi', sans-serif;
   font-style: italic;
   color: grey;
-  padding: 0 0px 20px 40px;
+  padding: 0 0px 0px 40px;
 }
 
 /* 
